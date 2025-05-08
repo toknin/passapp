@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.content a{
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black; 
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 100px;
+}
+.circle h3{
+    color: white;
+    text-align: center;
+}
+.icon-socialmedia{
+    margin-top: 10px;
+}
+.icon-socialmedia a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.fa-brands.fa-x-twitter.fa-2x{
+    color: hsl(210, 4%, 9%);
+}
+.fa-brands.fa-instagram.fa-2x{
+    color: hsl(208, 100%, 97%);
+}
+.fa-brands.fa-pinterest.fa-2x{
+    color: hsl(0, 76%, 50%);
+}
+.fa-brands.fa-linkedin.fa-2x{
+    color: hsl(240, 100%, 50%);
+}
+.fa-brands.fa-github.fa-2x{
+    color: hsl(0, 0%, 0%);
+}
+.content img{
+    position: absolute;
+    top: 210px;
+    left: 200px;
+    width: 520px;
+}
+.info{
+    position: absolute;
+    top: 230px;
+    left: 780px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.info{
+    width: 350px;
+    height: 250px;
+}
+.info a{
+    margin-left: 20px;
+    text-decoration: none;
+}
